@@ -1,0 +1,8 @@
+<h1>Add User</h1>
+<form [formGroup]="data">
+    <input type="text" name="firstName" id="firstName" placeholder="Enter First Name" formControlName="firstName"><br>
+    <input type="text" name="lastName" id ="lastName" placeholder = "Enter Last Name" formControlName="lastName"><br>
+    <input type="text" name="email" id="email" placeholder="Enter email" formControlName="email"><br>
+    <input type="password" name="password" id="password" placeholder="Enter your password" formControlName="password"><br>
+    <button (click)="addUser()">Add User</button>
+</form>
